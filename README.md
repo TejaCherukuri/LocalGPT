@@ -2,7 +2,7 @@
 
 LocalGPT is a fully local AI chatbot powered by **Google DeepMind's Gemma 3** (4B variant), running on **Ollama** for inference and **Chainlit** for an interactive conversational UI. This guide will help you set up and run LocalGPT on your system.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1️⃣ Install Ollama
 Ollama is required to run the **Gemma 3** model locally. Install Ollama based on your operating system:
@@ -42,20 +42,20 @@ chainlit run app.py -w
 ```
 This will launch the **Chainlit UI**, allowing you to chat with LocalGPT directly in your browser.
 
-## 🎯 Features
+## Features
 - **100% Local**: No internet required, ensuring privacy.
 - **Powered by Gemma 3**: Advanced AI capabilities optimized for local inference.
 - **Conversational UI**: Built with **Chainlit** for seamless interactions.
 
-## ❓ Troubleshooting
+## Troubleshooting
 - If you encounter model loading errors, ensure **Ollama is running** by executing:
   ```sh
   ollama run gemma3:4b
   ```
 - If memory issues arise, consider using **a smaller model variant** or closing unnecessary applications.
 
-## 💡 Contributing
+## Contributing
 Feel free to **fork** this repository, suggest improvements, or report issues!
 
 ---
-Enjoy running **LocalGPT** completely offline! 🚀
+Enjoy running **LocalGPT** completely offline!
