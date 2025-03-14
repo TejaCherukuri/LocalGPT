@@ -36,7 +36,7 @@ async def tool(input_message, image=None):
         interaction.append({"role": "user",
                             "content": input_message})
     
-    response = ollama.chat(model="gemma3:4b",
+    response = ollama.chat(model="gemma3:1b",
                            messages=interaction) 
     
     interaction.append({"role": "assistant",
