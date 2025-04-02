@@ -2,6 +2,8 @@
 
 LocalGPT is a fully local AI chatbot powered by **Google DeepMind's Gemma 3** (4B variant), running on **Ollama** for inference and **Chainlit** for an interactive conversational UI. This guide will help you set up and run LocalGPT on your system.
 
+![Demo](media/LocalGPT.gif)
+
 ## Getting Started
 
 ### 1️⃣ Install Ollama
